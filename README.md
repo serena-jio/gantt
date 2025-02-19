@@ -145,7 +145,27 @@ If you want to contribute enhancements or fixes:
 4. `pnpm run build` to build files - or `pnpm run build-dev` to build and watch for changes.
 5. Open `index.html` in your browser.
 6. Make your code changes and test them.
+# 问卷结构（总题项38题）
+## A. 筛选部分（3题）
+- 毕业年限 
+- 当前职业状态
+- 岗位技术密集度
 
+## B. 核心变量（28题）
+| 变量组   | 题项示例                          | 量表类型          |
+|----------|-----------------------------------|-----------------|
+| Y        | 过去两周因AI影响失眠的频率        | GAD-7改良版     |
+| X1       | 工作所需数据分析能力与大学教学的差距 | Likert 5点量表  |
+| X2       | 对GPT-5可能带来岗位替代的预期     | 语义差异量表    |
+| X3       | 获得AI培训资源的机会              | 资源可获得性指数|
+
+## C. 调节变量（5题）
+- 学科背景（STEM/非STEM）
+- 企业AI应用阶段
+
+## D. 质量控制（2题）
+- 注意力检查题
+- 回答一致性检验
 <br />
 <br />
 <div align="center" style="padding-top: 0.75rem;">
